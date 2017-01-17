@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC 
+	"-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" 
+	"http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+
+	<!-- 定义数据源 -->
+	<data-sources />
+
+	<!-- bean实例 -->
+	<form-beans>
+	</form-beans>
+
+	<!-- 定义全局异常 -->
+	<global-exceptions />
+
+	<!-- 用来创建整个应用范围内可见的转发跳转 -->
+	<global-forwards>
+		<forward name="error_rf" path="/financemanage/tx_rf_error.jsp" />
+	</global-forwards>
+
+	<!-- 请求URI映射到Action类，将Action类与ActionForm bean相关联 -->
+	<action-mappings>
+		<!-- 登陆 -->
+		<action
+			name=""
+			path="/financemanage/svnHistorySearch" scope="request"
+			type="com.fzj.svn.actions.SvnHistorySearchAction">
+		</action>
+		<action
+			name=""
+			path="/financemanage/svnHistoryExport" scope="request"
+			type="com.fzj.svn.actions.SvnHistoryExportAction">
+			<forward name="success" 
+				path="/financemanage/svnHistoryList.jsp"></forward>
+		</action>
+	</action-mappings>
+	<message-resources parameter="ApplicationResources" />
+
+</struts-config>

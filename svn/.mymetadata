@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="svn"
+  id="myeclipse.1479429189095"
+  context-root="/svn"
+  j2ee-spec="5.0"
+  archive="svn.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
