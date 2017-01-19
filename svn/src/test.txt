@@ -1,8 +1,18 @@
 total 10
--rw-r--r-- 1 fanzhjian 197121 2201 1æœˆ  17 16:08 ApplicationResources.properties
--rw-r--r-- 1 fanzhjian 197121  115 1æœˆ  17 16:08 ApplicationResources_zh_CN.properties
-drwxr-xr-x 1 fanzhjian 197121    0 1æœˆ  17 16:08 com/
--rw-r--r-- 1 fanzhjian 197121 1277 1æœˆ  17 16:08 log4j.properties
-drwxr-xr-x 1 fanzhjian 197121    0 1æœˆ  19 17:16 META-INF/
--rw-r--r-- 1 fanzhjian 197121   67 1æœˆ  17 16:18 readme.txt
--rw-r--r-- 1 fanzhjian 197121    0 1æœˆ  19 17:57 test.txt
+-rw-r--r-- 1 fanzhjian 197121 2201 1ÔÂ  17 16:08 ApplicationResources.properties
+-rw-r--r-- 1 fanzhjian 197121  115 1ÔÂ  17 16:08 ApplicationResources_zh_CN.properties
+drwxr-xr-x 1 fanzhjian 197121    0 1ÔÂ  17 16:08 com/
+-rw-r--r-- 1 fanzhjian 197121 1277 1ÔÂ  17 16:08 log4j.properties
+drwxr-xr-x 1 fanzhjian 197121    0 1ÔÂ  19 17:16 META-INF/
+-rw-r--r-- 1 fanzhjian 197121   67 1ÔÂ  17 16:18 readme.txt
+-rw-r--r-- 1 fanzhjian 197121    0 1ÔÂ  19 17:57 test.txt
+
+total 10
+-rw-r--r-- 1 fanzhjian 197121 2201 1ÔÂ  17 16:08 ApplicationResources.properties
+-rw-r--r-- 1 fanzhjian 197121  115 1ÔÂ  17 16:08 ApplicationResources_zh_CN.properties
+drwxr-xr-x 1 fanzhjian 197121    0 1ÔÂ  17 16:08 com/
+-rw-r--r-- 1 fanzhjian 197121 1277 1ÔÂ  17 16:08 log4j.properties
+drwxr-xr-x 1 fanzhjian 197121    0 1ÔÂ  19 17:16 META-INF/
+-rw-r--r-- 1 fanzhjian 197121   67 1ÔÂ  17 16:18 readme.txt
+-rw-r--r-- 1 fanzhjian 197121    0 1ÔÂ  19 17:57 test.txt
+
