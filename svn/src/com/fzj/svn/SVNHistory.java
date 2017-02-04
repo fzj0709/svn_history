@@ -78,10 +78,10 @@ public class SVNHistory {
     	IniReader ini = new IniReader();
     	String url = ini.getIniValue("svn_addr");
     	url = new String(url.getBytes("ISO-8859-1"),"gbk");
-    	  String name = ini.getIniValue("username");
-          String password = ini.getIniValue("password");
-          long startRevision = 4669;
-          long endRevision = 4674;//HEAD (the latest) revision
+	    String name = ini.getIniValue("username");
+        String password = ini.getIniValue("password");
+        long startRevision = 4669;
+        long endRevision = 4674;//HEAD (the latest) revision
        /* String url = "https://svn1.dhcccloud.com.cn:9443/svn/CDYHCW/01代码/financemanage_cd";
         String name = "fanzhijian";
         String password = "fanzhijian";
